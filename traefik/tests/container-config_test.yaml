@@ -36,10 +36,10 @@ tests:
       - equal:
           path: spec.template.spec.containers[0].image
           value: example.org/traefik:v2.3.0
-  - it: should permit arbitrary tag if versionOverride is set
+  - it: should permit arbitrary tag if traefikVersion is set
     set:
       image:
-        versionOverride: v3.3.3
+        traefikVersion: v3.3.3
         tag: 4099313979c90154fe2284fcc985b20f0919ae46
     asserts:
       - equal:

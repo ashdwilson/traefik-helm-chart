@@ -150,7 +150,7 @@ Kubernetes: `>=1.22.0-0`
 | image.registry | string | `"docker.io"` | Traefik image host registry |
 | image.repository | string | `"traefik"` | Traefik image repository |
 | image.tag | string | `nil` | defaults to appVersion |
-| image.versionOverride | string | `nil` | Override version parsed from `image.tag` or `Chart.AppVersion` |
+| image.traefikVersion | string | `nil` | Override version parsed from `image.tag` or `Chart.AppVersion` |
 | ingressClass | object | `{"enabled":true,"isDefaultClass":true,"name":""}` | Create a default IngressClass for Traefik |
 | ingressRoute.dashboard.annotations | object | `{}` | Additional ingressRoute annotations (e.g. for kubernetes.io/ingress.class) |
 | ingressRoute.dashboard.enabled | bool | `false` | Create an IngressRoute for the dashboard |

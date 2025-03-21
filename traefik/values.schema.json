@@ -567,7 +567,7 @@
                         "null"
                     ]
                 },
-                "versionOverride": {
+                "traefikVersion": {
                     "type": [
                         "string",
                         "null"
