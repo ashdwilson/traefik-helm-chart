@@ -143,6 +143,8 @@ based on semverCompare
     {{- end -}}
  {{- end -}}
 {{ $hubVersion }}
+{{- else if $.Values.image.versionOverride -}}
+{{ $.Values.image.versionOverride}}
 {{- else -}}
 {{ (split "@" (default $.Chart.AppVersion $.Values.image.tag))._0 | replace "latest-" "" | replace "experimental-" "" }}
 {{- end -}}

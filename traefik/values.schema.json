@@ -566,6 +566,12 @@
                         "string",
                         "null"
                     ]
+                },
+                "versionOverride": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
                 }
             },
             "type": "object"

@@ -9,6 +9,8 @@ image:  # @schema additionalProperties: false
   repository: traefik
   # -- defaults to appVersion
   tag:  # @schema type:[string, null]
+  # -- override version parsed from `image.tag` or `Chart.AppVersion`
+  versionOverride:  # @schema type:[string, null]
   # -- Traefik image pull policy
   pullPolicy: IfNotPresent
 
