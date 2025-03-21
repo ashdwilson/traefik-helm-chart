@@ -566,6 +566,12 @@
                         "string",
                         "null"
                     ]
+                },
+                "traefikVersion": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
                 }
             },
             "type": "object"
